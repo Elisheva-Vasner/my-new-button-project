@@ -1,0 +1,77 @@
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px; 
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+
+.button-card {
+  width: 364px;
+  height: 426px;
+  background-color: #B8C8E8;
+  border: 1px solid #79747E; 
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+  box-shadow: none;
+  outline: none;
+}
+
+
+
+
+.button-card:focus {
+    outline: none;
+}
+
+
+.button-icon {
+  width: 182px;
+  height: 182px;
+  margin-bottom: 20px;
+
+}
+
+
+.button-label {
+  width: 194px;
+  height: 40px;
+  margin-top: 20px;
+}
+.button-card.view-card .button-label {
+  width: 249px;
+}
+
+
+.button-icon {
+  width: 182px;
+  height: 182px;
+  margin-bottom: 20px;
+  background-color: #B8C8E8; 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+
+.button-icon img { 
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.button-label {
+  width: 194px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.button-card.view-card .button-label {
+  width: 249px;
+}
