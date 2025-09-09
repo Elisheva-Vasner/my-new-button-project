@@ -1,6 +1,5 @@
 import React from 'react';
 import './ButtonsPage.css';
-
 const ButtonsPage = () => {
   return (
     <div className="buttons-container">
@@ -34,5 +33,4 @@ const ButtonsPage = () => {
     </div>
   );
 };
-
 export default ButtonsPage;

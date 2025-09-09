@@ -7,8 +7,6 @@
   height: 100vh;
   background-color: #ffffff;
 }
-
-
 .button-card {
   width: 364px;
   height: 426px;
@@ -24,23 +22,15 @@
   box-shadow: none;
   outline: none;
 }
-
-
-
-
 .button-card:focus {
     outline: none;
 }
-
-
 .button-icon {
   width: 182px;
   height: 182px;
   margin-bottom: 20px;
 
 }
-
-
 .button-label {
   width: 194px;
   height: 40px;
@@ -49,8 +39,6 @@
 .button-card.view-card .button-label {
   width: 249px;
 }
-
-
 .button-icon {
   width: 182px;
   height: 182px;
